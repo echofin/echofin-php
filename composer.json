@@ -1,0 +1,27 @@
+{
+    "name": "echofin/echofin-php",
+    "description": "Echofin PHP Library",
+    "keywords": ["echofin", "sdk", "api"],
+    "homepage": "https://www.echofin.co/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Echofin Tech Team",
+            "homepage": "https://github.com/echofin/echofin-php/contributors"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Echofin\\": "src/"
+        }
+    }
+}
