@@ -19,9 +19,9 @@
 
   /* Define a user Object */
   $userObject = array(
-    'email' => 'kris+apitest10@echofin.co',
+    'email' => 'myemail@domain.com',
     'fullName' => 'Jon Doe',
-    'userName' => 'kris_apitest10',
+    'userName' => 'myUserName',
     'password' => 'ABCD1234',
     'emailVerification' => false
   );
